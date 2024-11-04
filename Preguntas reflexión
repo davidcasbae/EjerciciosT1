@@ -1,0 +1,27 @@
+¿Qué ventajas y desventajas tiene la ejecución
+de programas de manera síncrona versus asíncrona?
+
+    pues para programas que necesiten hacer alguna
+    acción obligatoriamente antes de ejecutar la
+    siguiente, ejecutarlo de forma síncrona es
+    la mejor opción, pero si quieres poder usar
+    otra herramienta sin tener que esperar a que
+    termine la ejecución, la mejor opción sería
+    la asincrona.
+
+¿Por qué es importante manejar las excepciones
+al trabajar con procesos?
+
+    porque igual el proceso puede cambiar de
+    estado inesperadamente y capturar la excepción
+    puede servir para controlar que está pasando, o
+    que igual al proceso que se está llamando no existe.
+
+¿Qué tipo de problemas se pueden presentar
+al comunicarse entre procesos? ¿Cómo los has
+solucionado?
+
+    al abrir o cerrar la comunicacion con el pipe
+    para que el otro proceso se pueda comunicar.
+
+    comprobando bien cuando cerrar el de lectura o escritura.
